@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <link rel=stylesheet type="text/css" href="css/main.css">
+        <title>MyPortfolio</title>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <h1><img id="bannerimg" src="images/spring2.jpg" alt="Something here"></h1>
+                <a href="../index.html">Home</a>
+                <a href="pages/projects.html">Projects</a>
+                <a href="../pages/DeepThoughts.html">Deep Thoughts</a>
+                <a href="../pages/AboutMe.html">About me</a>
+            </div>
+        </header>
+        <img class="pics" src="images/USMapFlag2.png">
+        <p>Wassup <strong>bro</strong>?</p>
+        <div class="boring">
+            this is a bunch of boring text that is styled differnt because its in the "boring class"
+        </div>
+        
+        <ul>
+            <li>bruh</li>
+            <li>&nbsp;bruh</li>
+            <li>&nbsp;&nbsp;bruh</li>
+            <li>&nbsp;&nbsp;&nbsp;bruh</li>
+            <li>bruh</li>
+            <li class="indent">bruh</li>
+            <li>bruh</li>
+            <li class="indent2">bruh</li>
+            <li>bruh</li>
+            <li>bruh</li>
+            <li>bruh</li>
+            <li>bruh</li>
+            <li>bruh</li>
+            <li>bruh</li>
+            <li>bruh</li>
+            <li>bruh</li>
+            <li>bruh</li>
+            <li>bruh</li>
+            <li>bruh</li>            
+        </ul>
+        
+        <script>
+            function getBannerImg(){
+                let date = new Date().getMonth();
+                let img;
+                switch(true){
+                    case date==11 : img="../images/winter2.png"; break;
+                    case date<=1 : img="../images/winter2.png"; break;
+                    case date<=4 : img="../images/spring2.png"; break;
+                    case date<=7 : img="../images/summer2.png"; break;
+                    case date<=10 : img="../images/fall2.png"; break;
+                    default : img="../images/seasons.png"; break;
+                }
+                return img;
+            }
+            document.getElementById("bannerimg").src=getBannerImg();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,105 @@
+body {
+    background-color: gray;
+    margin: auto;
+}
+
+p {
+    color: white;
+    font-family:arial,sans-serif;
+    margin: 5px;
+}
+
+.boring {
+    color: red;
+    margin: 5px;
+    padding: 7px;
+    background-color: white;
+    border-style: groove;
+    border-color: red;
+    border-width: 10px;
+    width: 33.33%;
+    
+}
+
+a:hover {
+    color: green;    
+}
+
+h2 {
+    font-size: 20px;
+    
+}
+
+img {
+    
+    width: 50%;
+
+}
+
+.pics {
+    background-color: white;
+    border: 10px;
+    padding: 20px;
+    margin: 40px;
+    display: inline-block;
+
+}
+
+.indent {
+    margin-left: 20px;
+    
+}
+
+.indent2 {
+    padding-left: 20px;
+    
+}
+
+#date {
+    display: inline-block;
+    color: black; 
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    
+}
+
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    margin-top: -20;
+    
+}
+
+/* Navigation links */
+.navbar a {
+    float: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%;
+    /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center;
+    /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+    background-color: #000;
+}
+
+/* Style the current/active link */
+.navbar a:active {
+    background-color: #4CAF50;
+}
+
+#bannerimg {
+    width: 100%;
+    height: auto;
+
+}
