@@ -18,6 +18,8 @@ p {
     border-color: red;
     border-width: 10px;
     width: 33.33%;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -27,7 +29,7 @@ a:hover {
 
 h2 {
     font-size: 20px;
-    
+    text-align: center;
 }
 
 img {
@@ -47,6 +49,7 @@ img {
 
 .indent {
     margin-left: 20px;
+    color: inherit;
     
 }
 
