@@ -68,6 +68,22 @@ img {
     
 }
 
+
+#hidden{ 
+    color: gray;
+    padding: 20px;
+    display: block;
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+}
+
+#hidden:hover {   
+    color: white;
+}
+
 /* Style the navigation menu */
 .navbar {
     width: 100%;
