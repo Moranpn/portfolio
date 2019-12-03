@@ -43,7 +43,7 @@ class Elsa{
     
     for(Lines l:lines){
       line(l.x,l.y,l.x2,l.y2);
-      println(l.c);
+      //println(l.c);
       stroke(l.c,240,255);
     }
     
