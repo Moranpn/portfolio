@@ -12,7 +12,7 @@ StringParser sp;                                    //beep boop bop beep beep bo
 void setup() {
   size(400, 200);
   //all=loadFile("data/book.txt")
-  w=loadStrings("data/sonnet.txt");
+  w=loadStrings("data/cnn.txt");
   s=join(w, " ");
   words=splitTokens(s, ",.!?- ");
   //wList=new WordList(words);

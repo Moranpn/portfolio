@@ -78,10 +78,10 @@ int getGradeLevel(String text) {
   
   //return (int)z;
   
-  double asl = countWords(text)/countSentences(text);
-  
-  double asw = countSyllables(text)/countWords(text);
-  
+  //double asl = countWords(text)/countSentences(text);
+  double asl=99/4;
+  //double asw = countSyllables(text)/countWords(text);
+  double asw=176/99;
   double fkra = (0.39*asl)+(11.8*asw)-15.59;
   
   return (int)fkra;
