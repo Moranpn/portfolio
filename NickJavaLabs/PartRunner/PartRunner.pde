@@ -11,7 +11,7 @@ import static java.lang.System.*;
    //PartList.java
 
 void setup(){
-    PartList prog = new PartList("partinfo.dat");
+    PartList prog = new PartList("parts.txt");
     out.println(prog);
     
 }
