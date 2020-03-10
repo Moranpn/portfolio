@@ -1,0 +1,8 @@
+TSO - Texas State Optical
+PDA - Personal Display of Affection
+RBI - Runs Batted In
+SO - Strike Out
+FG - Field Goal
+CPU - Central Processing Unit
+HD - Hard Drive
+PU - Pick Up
